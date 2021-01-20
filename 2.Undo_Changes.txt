@@ -1,0 +1,21 @@
+# Undoing a file with is not committed 
+git checkout -- FileName.txt
+
+# To see commit history (with commit ID)
+git log
+
+# Reverting changes after COMMITTING 
+git revert CommitID	
+# get CommitID using (git log)
+
+# Revert already commiting changes locally
+git revert -n CommitID
+# Revert the changes but does not commit them
+
+# Go to a Previous Point (reset)
+git reset --hard CommitID
+
+# checkout --> remove the changes done locally
+# revert --> remove the changes done and commited
+# reset --> go to a particular timestamp
+# Be careful while using reset coz there is no way back
