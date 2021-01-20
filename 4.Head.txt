@@ -1,0 +1,32 @@
+# HEAD is a reference to the most recent commmit in current branch (in most of the cases) 
+
+# Most recent Commit it HEAD
+# Below most recent commit HEAD~1
+# Below it HEAD~2 	(and so on...)
+
+# You can read it as HEAD minus 1 and HEAD minus 2 for your convience 
+
+
+# Where is it useful
+# 1. When you want to see most recent commit 
+  	git show CommitID (of most recent commit)
+  			# is equal to
+  	git show HEAD
+    
+    in simple word instead of using that CommitId you can use head
+  
+  
+# 2. Alternative for commit ID
+	git difftool CommitID1 CommitID2
+  			# is equal to
+    git difftool HEAD HEAL~2		(giving reference form HEAD)
+    
+    
+# Case when HEAD is not EQUAL to most recent commit 
+	This state is called DETACHED HEAD STATE
+  	
+    # We want to ignore some recent commits and want tot use older commit as base for out new commit we go to that using
+    git checkout CommitID
+    
+    
+At this point of time HEAD is not at most recent commit
