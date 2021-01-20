@@ -1,0 +1,14 @@
+# Adding files to staging area
+git add FileName.txt
+
+# Committing Files
+git commit -m "Your Message here"
+
+# Adding and Commiting by a single command
+git commit -am "Your Message here"
+
+# Check Status 
+git status
+
+# Pushing changes from local to Github
+git push
