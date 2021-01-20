@@ -1,0 +1,21 @@
+# For experimental changes we use BRANCHES
+
+# List all the BRANCH
+git branch
+
+# Create new BRANCH
+git branch NAME
+
+# Switch to another branch (make active)
+git checkout NAME
+
+# Creating and Switching to newly created branch
+git checkout -b NAME
+
+# Megre BRANCHES
+# Go to the branch where you want to join another branch
+git merge NAME
+# Name of the branch which you want to merge to currently active branch
+
+# Delete a BRANCH
+git branch -d NAME
